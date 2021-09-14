@@ -1,0 +1,43 @@
+.second-part {
+  display: flex;
+}
+.second-part > li {
+  width: 50%;
+  height: 500px;
+  text-align: center;
+  list-style: none;
+}
+
+.second-part > li > p {
+  font-weight: bold;
+  color: white;
+  -webkit-text-stroke: 0.3px black;
+  position: relative;
+  top: 450px;
+}
+
+#list-1 {
+  background-image: url('/img/running.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#list-2 {
+  background-image: url('/img/studio.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#list-3 {
+  background-image: url('/img/lifestyle.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#list-4 {
+  background-image: url('/img/training.jpg');
+  background-size: cover;
+  background-position: center;
+}
+#list-5 {
+  background-image: url('/img/cycling.jpg');
+  background-size: cover;
+  background-position: center;
+}
